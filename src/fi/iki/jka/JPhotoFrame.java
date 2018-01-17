@@ -401,6 +401,9 @@ public class JPhotoFrame extends JFrame
         else if (cmd.equals(JPhotoMenu.A_SLIDESHOW)) {
             startSlideshow(5000);
         }
+        else if (cmd.equals(JPhotoMenu.A_SLIDESHOW_FAST)) {
+            startSlideshow(50);
+        }
         else if (cmd.equals(JPhotoMenu.A_HELP)) {
             displayHelp();
         }
@@ -463,6 +466,7 @@ public class JPhotoFrame extends JFrame
         if (photos.getSize()>0) {
             JPhotoShow show = new JPhotoShow(photos, interval, list);
             show.setVisible(true);
+
         }
         else
             JOptionPane.showMessageDialog(this, "No photos to show!",

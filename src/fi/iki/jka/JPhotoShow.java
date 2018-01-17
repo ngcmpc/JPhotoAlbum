@@ -80,11 +80,15 @@ public class JPhotoShow extends JFrame {
         // XXX Should register ListDataListener to photos to get async updates
 
         if (interval>0) {
-            timer = new javax.swing.Timer(interval, new ShowAction(A_NEXT));
-            timer.start();
+            startTimer(interval);
         }
     }
-    
+
+    protected void startTimer(int interval) {
+        timer = new javax.swing.Timer(interval, new ShowAction(A_NEXT));
+        timer.start();
+    }
+
     void addAction(String code, KeyStroke key) {
         InputMap im = panel.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW);
         ActionMap am = panel.getActionMap();        
