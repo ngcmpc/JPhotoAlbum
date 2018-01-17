@@ -39,6 +39,7 @@ public class JPhotoShow extends JFrame {
     }
     
     public JPhotoShow(JPhotoCollection photos, int interval, JList list) {
+
         this.photos = photos;
         
         panel = new JPhotoPanel();
