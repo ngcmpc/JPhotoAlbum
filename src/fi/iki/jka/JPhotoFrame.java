@@ -402,7 +402,7 @@ public class JPhotoFrame extends JFrame
             startSlideshow(5000);
         }
         else if (cmd.equals(JPhotoMenu.A_SLIDESHOW_FAST)) {
-            startSlideshow(50);
+            startSlideshow(1000);
         }
         else if (cmd.equals(JPhotoMenu.A_HELP)) {
             displayHelp();

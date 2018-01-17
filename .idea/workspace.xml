@@ -4,8 +4,6 @@
     <list default="true" id="0de10f86-07f3-4661-a19a-0e1a5d9c3691" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/fi/iki/jka/JPhotoFrame.java" afterPath="$PROJECT_DIR$/src/fi/iki/jka/JPhotoFrame.java" />
-      <change beforePath="$PROJECT_DIR$/src/fi/iki/jka/JPhotoShow.java" afterPath="$PROJECT_DIR$/src/fi/iki/jka/JPhotoShow.java" />
-      <change beforePath="$PROJECT_DIR$/tests/fi/iki/jka/JPhotoFrameTest.java" afterPath="$PROJECT_DIR$/tests/fi/iki/jka/JPhotoFrameTest.java" />
     </list>
     <ignored path="JPhotoAlbum.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +62,8 @@
       <file leaf-file-name="JPhotoFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fi/iki/jka/JPhotoFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="1088" column="12" lean-forward="true" selection-start-line="1088" selection-start-column="12" selection-end-line="1088" selection-end-column="12" />
+            <state relative-caret-position="540">
+              <caret line="404" column="30" lean-forward="false" selection-start-line="404" selection-start-column="30" selection-end-line="404" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -360,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516188513706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="@Test photoShowIntervalStaysTheSameBetweenTheConstructorAndTheTimer">
+      <created>1516191994123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516191994123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -443,7 +448,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="@Test slideShowTesting" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Test slideShowTesting" />
+    <MESSAGE value="@Test photoShowIntervalStaysTheSameBetweenTheConstructorAndTheTimer" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Test photoShowIntervalStaysTheSameBetweenTheConstructorAndTheTimer" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -504,6 +510,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fi/iki/jka/JPhotoShow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/fi/iki/jka/JPhotoFrameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -525,14 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fi/iki/jka/JPhotoShow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fi/iki/jka/JPhotoMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -543,8 +549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fi/iki/jka/JPhotoFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="1088" column="12" lean-forward="true" selection-start-line="1088" selection-start-column="12" selection-end-line="1088" selection-end-column="12" />
+        <state relative-caret-position="540">
+          <caret line="404" column="30" lean-forward="false" selection-start-line="404" selection-start-column="30" selection-end-line="404" selection-end-column="30" />
           <folding />
         </state>
       </provider>
